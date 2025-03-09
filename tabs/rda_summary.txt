@@ -1,0 +1,29 @@
+
+Call:
+rda(formula = rda_community_env ~ H_22s + H_C31 + Paq + CPI,      data = rda_predictor_env) 
+
+Partitioning of variance:
+              Inertia Proportion
+Total           4.000     1.0000
+Constrained     2.013     0.5032
+Unconstrained   1.987     0.4968
+
+Eigenvalues, and their contribution to the variance 
+
+Importance of components:
+                        RDA1    RDA2     RDA3      RDA4    PC1    PC2     PC3
+Eigenvalue            1.9058 0.08867 0.017950 0.0004713 1.0034 0.5130 0.38909
+Proportion Explained  0.4764 0.02217 0.004488 0.0001178 0.2508 0.1282 0.09727
+Cumulative Proportion 0.4764 0.49861 0.503098 0.5032161 0.7541 0.8823 0.97958
+                          PC4
+Eigenvalue            0.08170
+Proportion Explained  0.02042
+Cumulative Proportion 1.00000
+
+Accumulated constrained eigenvalues
+Importance of components:
+                        RDA1    RDA2     RDA3      RDA4
+Eigenvalue            1.9058 0.08867 0.017950 0.0004713
+Proportion Explained  0.9468 0.04405 0.008918 0.0002342
+Cumulative Proportion 0.9468 0.99085 0.999766 1.0000000
+
